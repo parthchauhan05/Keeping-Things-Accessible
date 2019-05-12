@@ -1,9 +1,9 @@
 ## MTM6230 - Client-Side Web Development
----
+
 ### Keeping Things Accessible
 ##### Submitted By: Parth Chauhan | 040957345
 ##### Due Date: May 12, 2019
----
+
 | No. | Accessibility Problem | Solution |
 | --- | --- | --- |
 | 1 | Not used schemantic elements of HTML | Use of schemantic HTML elements like `<header></header>`, `<aricle></article>`,  `<footer></footer>`, `<nav></nav>`, etc. |
