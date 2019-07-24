@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Keeping Things Accessible</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="header__nav">
+      <ul class="header__navlist">
+        <li><a href="index.html" title="">Home</a></li>
+        <li class="has-children">
+          <a href="" title="">Categories</a>
+          <ul class="sub-menu">
+            <li><a href="">Lifestyle</a></li>
+            <li><a href="">Health</a></li>
+            <li><a href="">Family</a></li>
+            <li><a href="">Management</a></li>
+            <li><a href="">Travel</a></li>
+            <li><a href="">Work</a></li>
+          </ul>
+        </li>
+        <li class="has-children">
+          <a href="" title="">Blog</a>
+          <ul class="sub-menu">
+            <li><a href="">Video Post</a></li>
+            <li><a href="">Audio Post</a></li>
+            <li><a href="">Standard Post</a></li>
+          </ul>
+        </li>
+        <li><a href="" title="">Styles</a></li>
+        <li><a href="" title="">About</a></li>
+        <li><a href="" title="">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="article">
+      <p class="h2">What is Accessibility?</p>
+
+      <p>To say your site accessible means that the site's content is available and functional to by literally anyone.
+        It
+        is common to believe that users of your site have and can use they same tools that you do. But the truth is
+        that
+        there are many different types of people using many different types of ways of access your content. It can be
+        difficult to know where to start. Fortunately, the <abbr title="World Wide Web Consortium">W3C</abbr> has
+        provided us with the WCAG and the WAI-ARIA to guide and help use create more accessible websites.</p>
+
+      <p class="h3">Web Content Accessibility Guidelines</p>
+
+      <p>While WCAG provides a comprehensive overview of what it means for content to be accessible, it can also be a
+        bit
+        overwhelming. To help mitigate this, the WebAIM group has distilled the <a href="https://www.w3.org/TR/WCAG21/">WCAG
+          guidelines</a> into an easy-to-follow checklist, targeted specifically for web content.</p>
+
+      <p class="h3">WebAIM Checklist</p>
+
+      <div class="article__image">
+        <img src="images/2019-01-11_06-05-41.png">
+      </div>
+
+
+      <p>The <a href="http://webaim.org/standards/wcag/checklist">WebAIM checklist</a> can give you a short, high-level
+        summary of what you need to implement, while also
+        linking to the underlying WCAG specification if you need an expanded definition.</p>
+
+      <p>With this tool in hand, you can chart a direction for your accessibility work and be confident that, as long
+        as your project meets the outlined criteria, your users should have a positive experience accessing your
+        content.</p>
+
+      <div class="article__header">
+        <div class="article__image">
+          <img src="images/1209641_1280.jpg">
+        </div>
+        <h1 class="article__title">Keeping Things Accessible</h1>
+        <p class="article__author">by <a href="">Michael Eisenbraun</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="aside">
+    <form class="form">
+      <h4 class="form__header">Leave a comment. Provide your name and email.</h4>
+      <div class="form__inputs">
+        <input type="text" name="name" id="name">
+        <input type="text" name="email" id="email">
+      </div>
+      <div class="form__inputs">
+        <textarea name="comment"></textarea>
+      </div>
+
+      <label>I agree to the Privacy Policy.</label>
+      <input type="checkbox" name="privacy" id="privacy">
+    </form>
+  </div>
+
+
+
+</body>
+
+</html>
